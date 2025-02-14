@@ -77,9 +77,14 @@
             margin-top: 30px;
             box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
         }
-        .footer span {
+        .author {
+            text-decoration: none;
             color: #00c6ff;
-            font-weight: 600;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .author:hover {
+            color: #007bff;
         }
     </style>
 </head>
@@ -120,7 +125,7 @@
             {% endfor %}
         </div>
     </div>
-    <footer>
+    <footer class="footer">
         Designed By 
         <a href="https://github.com/dattu20038" class="author" target="_blank">Dattu Gollapinni</a>
     </footer>
